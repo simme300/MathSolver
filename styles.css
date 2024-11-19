@@ -1,0 +1,72 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	background-color: hsl(0, 0%, 15%);
+}
+
+#equation-form {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	margin-top: 30vh;
+}
+
+.field {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 500px;
+	height: 200px;
+	background-color: hsl(0, 0%, 20%);
+	border: 5px solid hsl(69, 95%, 48%);
+	box-shadow: 0 0 20px 0 whitesmoke;
+}
+
+.header {
+	font-size: 2rem;
+	color: white;
+}
+
+#equation {
+	padding: 0.8em;
+	width: 300px;
+	font-size: 0.9rem;
+}
+
+.solve-btn {
+	width: 70px;
+	padding: 0.8em;
+	background-color: hsl(22, 100%, 51%);
+	color: white;
+	font-size: 0.9rem;
+}
+
+.solve-btn:hover {
+	box-shadow: 0 0 20px 0 whitesmoke;
+}
+
+.solve-btn:focus {
+	box-shadow: 0 0 10px 0 hsl(69, 95%, 48%);
+}
+
+.result-container {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#results {
+	position: relative;
+	text-align: start;
+	font-size: 2rem;
+	margin-top: 10vh;
+	width: 500px;
+	height: 50px;
+	color: whitesmoke;
+	font-family: monospace;
+}
